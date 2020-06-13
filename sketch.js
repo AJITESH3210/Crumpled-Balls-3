@@ -20,7 +20,7 @@ function setup(){
     box2 = new Box(920,305,0,0);
     box3 = new Box1(990,305,5,89);
    // paper1 = new Paper(325,300,30,30)
-    paper = new Paper(120,345,70);
+    paper = new Paper(200,200,70);
     slingshot = new SlingShot(paper.body, { x : 200  ,y : 200 } );
 
 }
@@ -39,7 +39,8 @@ function draw(){
     box1.display();
     box2.display();
     box3.display();
-	//paper1.display
+    
+    slingshot.display();
 	
 }
 
